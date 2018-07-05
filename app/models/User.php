@@ -44,9 +44,13 @@ class User extends Database {
 
         //Execute
         if($this->db->execute()){
+
             return true;
+
         }else{
+
             return false;
+
         }
 
 
