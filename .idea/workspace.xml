@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec0b2aa7-e986-4c9b-abd8-3a74d7500180" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Posts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/inc/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/inc/navbar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shareposts.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,8 +61,8 @@
       <file leaf-file-name="navbar.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/inc/navbar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="30" column="108" selection-start-line="30" selection-start-column="108" selection-end-line="30" selection-end-column="108" />
+            <state relative-caret-position="440">
+              <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -176,76 +173,7 @@
             <path>
               <item name="shareposts" type="b2602c69:ProjectViewProjectNode" />
               <item name="shareposts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shareposts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shareposts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shareposts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shareposts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shareposts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shareposts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shareposts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shareposts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shareposts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shareposts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shareposts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shareposts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shareposts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shareposts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shareposts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shareposts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shareposts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shareposts" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shareposts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shareposts" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shareposts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shareposts" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,7 +211,7 @@
       <option name="presentableId" value="Default" />
       <updated>1530717994113</updated>
       <workItem from="1530717995299" duration="4925000" />
-      <workItem from="1530785460531" duration="18051000" />
+      <workItem from="1530785460531" duration="18292000" />
     </task>
     <task id="LOCAL-00001" summary="Dodanie szkieletu MVC z poprzedniego projektu">
       <created>1530718086449</created>
@@ -390,17 +318,24 @@
       <option name="project" value="LOCAL" />
       <updated>1530812039947</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Dodanie metod odpowiedzialnych za usuwanie wlasnych postow">
+      <created>1530812649545</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1530812649545</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22976000" />
+    <option name="totallyTimeSpent" value="23217000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10394456" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09808102" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -444,7 +379,8 @@
     <MESSAGE value="Dodanie metod odpowiedzialnych za dodawanie nowych postow" />
     <MESSAGE value="Dodanie wyswietlania poszczegolnych postow na osobnych stronach oraz przysciskow edycji i usuwania postow tylko dla autora postu" />
     <MESSAGE value="Dodanie metod odpowiedzialnych za edycje postow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie metod odpowiedzialnych za edycje postow" />
+    <MESSAGE value="Dodanie metod odpowiedzialnych za usuwanie wlasnych postow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie metod odpowiedzialnych za usuwanie wlasnych postow" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/config/config.php">
@@ -673,8 +609,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/inc/navbar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="30" column="108" selection-start-line="30" selection-start-column="108" selection-end-line="30" selection-end-column="108" />
+        <state relative-caret-position="440">
+          <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
         </state>
       </provider>
     </entry>
