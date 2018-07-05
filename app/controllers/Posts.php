@@ -28,6 +28,18 @@ class Posts extends Controller{
 
     }
 
+    public function add(){
+
+        $data = [
+            'title' => '',
+            'body' => ''
+
+        ];
+
+        $this->view('posts/add', $data);
+
+    }
+
 }
 
 ?>

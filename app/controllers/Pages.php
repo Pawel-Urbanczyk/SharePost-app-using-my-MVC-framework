@@ -10,6 +10,12 @@
 
         public function index(){
 
+            if(isLoggedIn()){
+
+                redirect('posts');
+
+            }
+
             $data =['title' => 'SharePosts',
                     'description' => 'Simple social netword built on the my MVC FRAMEWORK'
             ];
