@@ -190,7 +190,7 @@ class Users extends Controller {
         $_SESSION['user_email'] = $user->email;
         $_SESSION['user_name'] = $user->name;
 
-        redirect('pages/index');
+        redirect('posts');
 
     }
 
@@ -203,20 +203,6 @@ class Users extends Controller {
         session_destroy();
 
         redirect('users/login');
-
-    }
-
-    public function isLoggedIn(){
-
-        if(isset($_SESSION['user_id'])){
-
-            return true;
-
-        }else{
-
-            return false;
-
-        }
 
     }
 
