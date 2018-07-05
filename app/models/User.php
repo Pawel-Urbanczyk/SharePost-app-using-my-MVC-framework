@@ -14,6 +14,8 @@ class User extends Database {
     public function findUserByEmail($email){
 
         $this->db->query("SELECT * FROM users WHERE email = :email");
+
+        //Bind values
         $this->db->bind(':email', $email);
 
         $row = $this->db->single();
@@ -28,6 +30,26 @@ class User extends Database {
             return false;
 
         }
+
+    }
+
+    public function register($data){
+
+        $this->db->query("INSERT INTO users (name, email, password) VALUES (:name, :email, :password)");
+
+        //Bind values
+        $this->db->bind(':name', $data['name']);
+        $this->db->bind(':email', $data['email']);
+        $this->db->bind(':password', $data['password']);
+
+        //Execute
+        if($this->db->execute()){
+            return true;
+        }else{
+            return false;
+        }
+
+
 
     }
 
